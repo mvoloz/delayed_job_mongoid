@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.files           = %w(CHANGELOG.md CONTRIBUTING.md LICENSE.md README.md Rakefile delayed_job_mongoid.gemspec)
   spec.files          += Dir.glob("lib/**/*.rb")
   spec.files          += Dir.glob("spec/**/*")
-  spec.homepage        = 'http://github.com/collectiveidea/delayed_job_mongoid'
+  spec.homepage        = 'http://github.com/mvoloz/delayed_job_mongoid'
   spec.licenses        = ['MIT']
   spec.name            = 'delayed_job_mongoid'
   spec.require_paths   = ['lib']
